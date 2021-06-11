@@ -1,0 +1,74 @@
+.servicesBoxes {
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+    -webkit-transform: perspective(900px);
+    -webkit-transform-style: preserve-3d;
+}
+
+.overviewBoxes, .servicesBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+div {
+    display: block;
+}
+
+.bg-7 {
+    color: #c3e9f5;
+    background: linear-gradient(45deg,#ffffff,#ffffff);
+}
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+:root {
+    --color-woodsmoke: #16161D;
+    --color-gandalf: #414155;
+    --color-gunpowder: #505061;
+    --color-dolphin: #626177;
+    --color-manatee: #8888A2;
+    --color-cadet-blue: #abb2bf;
+    --color-whisper: #EBEBF7;
+    --color-selago: #F4F4FD;
+    --color-white-lilac: #f8f8fc;
+    --color-white: #fff;
+    --color-green-haze: #00AB47;
+    --color-dodger-blue-rgb: 88, 81, 255;
+    --color-dodger-blue: rgb(88, 81, 255);
+    --color-dodger-blue-hover: rgba(88, 81, 255, 0.2);
+    --color-old-lace: #fdf5e4;
+    --color-wheatfield: #F1E3C5;
+    --color-pirate-gold: #9A6400;
+    --button-shadow: 0px 2px 4px rgba(2, 8, 20, 0.1), 0px 1px 2px rgba(2, 8, 20, 0.08);
+    --button-shadow-hover: 0 4px 6px rgba(0, 0, 0, .12), 0 1px 3px rgba(0, 0, 0, .08);
+    --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+:root {
+    --animate-duration: 1s;
+    --animate-delay: 1s;
+    --animate-repeat: 1;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
